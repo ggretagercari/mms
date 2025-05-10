@@ -1,7 +1,6 @@
 <?php include_once 'header.php';?>
 
 
-<?php include_once 'footer.php';?>
 
 <section class="vh-100" style="background-color: #eee;">
   <div class="container h-100">
@@ -57,7 +56,7 @@
 
 
                   <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                    <button  type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg">Register</button>
+                    <button  type="submit" name="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg">Register</button>
                   </div>
 
                 </form>
@@ -76,3 +75,6 @@
     </div>
   </div>
 </section>
+
+
+<?php include_once 'footer.php';?>
